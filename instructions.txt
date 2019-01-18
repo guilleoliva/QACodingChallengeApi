@@ -1,0 +1,14 @@
+Compile Build or Run Tests
+==========================
+
+Command Line
+
+cd to root ot project directory
+
+To clean and compile the build
+-----------------------------
+mvn clean install -DskipTests
+
+To run all tests
+------------------------
+mvn test
